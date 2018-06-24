@@ -1,0 +1,90 @@
+/*
+Theme Name: Lina Blog
+Theme URI:
+Author: Matheus de Barros Pereira
+Author URI: 
+Description: Tema de atividade
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: linaBlog
+Tags: linaBlog, atividade, teste
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* header */
+#header {margin: 15px 0 0;}
+
+.header {background: #eee;border-top: 3px solid #222; padding: 22px 0;}
+
+/* search */
+.search {
+	/* The image used */
+    background-image: url("images/bg-masthead.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+    margin: 0 0 30px;
+}
+
+.search-category {
+	/* The image used */
+    background-image: url("images/bg-masthead.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 0;
+    margin: 0 0 30px;
+}
+
+/* a */
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+/* categoria */
+.category {
+	margin-bottom: 30px;
+	-webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+    padding: 5px;
+    border-radius: 3px;
+}
+.category h3 {
+	margin: 5px 0 0;
+	color: #333;
+}
+
+.category:hover {
+	background-color: #25354d;
+}
+
+.category:hover img {
+	-webkit-filter: brightness(0) invert(1);;
+        filter: brightness(0) invert(1);
+}
+.category:hover h3 {
+	color: #fff;
+}
+/* Pesquisa */
+.form-control {
+	min-width: 50%;
+
+}
+
+/* Post */
+
+.post {
+	margin: 30px 0;
+}
