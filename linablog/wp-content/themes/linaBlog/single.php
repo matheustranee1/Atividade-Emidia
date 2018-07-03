@@ -37,6 +37,15 @@
  		</div>
  	 </div>
  	<?php endwhile; ?>	
- </div>   	
+ 	<div class="row"> 
+    	<div class="col-md-12">
+    		<h4>Relacionados</h4>
+    		<?=do_shortcode('[relationsCategory amount="2"]')?>
+    		<br>
+    		<br>
+    	</div>		
+    </div>		
+ </div>
+
 
 <?php get_footer(); ?>
